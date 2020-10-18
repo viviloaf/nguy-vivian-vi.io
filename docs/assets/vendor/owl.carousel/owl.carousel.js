@@ -72,7 +72,7 @@
 		 * Animation speed in milliseconds.
 		 * @protected
 		 */
-		this._speed = null;
+		this._speed = 100000; /* Edited speed
 
 		/**
 		 * Coordinates of all items in pixel.
@@ -2719,7 +2719,7 @@
 	 */
 	Autoplay.Defaults = {
 		autoplay: false,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 100_000, /* edited time to be twice as long for longer carousel */
 		autoplayHoverPause: false,
 		autoplaySpeed: false
 	};
